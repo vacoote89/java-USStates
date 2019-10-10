@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="USStates.jnlp">
+  <information>
+    <title>USStates</title>
+    <vendor>vjvib</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="USStates.jar" size="9990" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="usstates.USStates"  name="USStates" />
+  <update check="always"/>
+</jnlp>

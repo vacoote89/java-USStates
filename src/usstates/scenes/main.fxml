@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="253.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usstates.StateController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="270.0" prefWidth="709.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ListView fx:id="lvStates" layoutX="25.0" layoutY="26.0" prefHeight="200.0" prefWidth="155.0" />
+            <TableView fx:id="tblResult" layoutX="187.0" layoutY="26.0" prefHeight="200.0" prefWidth="636.0">
+              <columns>
+                <TableColumn fx:id="colBird" prefWidth="162.39996337890625" text="Bird" />
+                <TableColumn fx:id="colFlower" prefWidth="159.20001220703125" text="Flower" />
+                  <TableColumn fx:id="colNickname" prefWidth="159.99996948242188" text="Nickname" />
+                  <TableColumn fx:id="colCapital" prefWidth="152.800048828125" text="Capital" />
+              </columns>
+            </TableView>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
